@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* Put box-sizing on each and every element, 
+    inherit from body and easier to override later on */
+}
+
+html {
+  /*
+    font-size: 10px; 
+
+     root font size: 1rem is now 10px
+     But: bad practice as this overrides the user setting. Suppose someone has
+     a larger font size because (s)he's visually impaired. Then we make their
+     life more difficult.
+     
+     Default browsers will have 16px unless user sets something else.
+
+     We're not moving this to typography because it'll control the global sizing
+     as well, when using rem. This defines what 1 rem is
+     */
+  font-size: 62.5%;
+  background-color: $color-white;
+}
+
+body {
+  box-sizing: border-box;
+}
