@@ -1,0 +1,3 @@
+abstracts don't output any scss 
+
+They're used for variables, mixins, etc...

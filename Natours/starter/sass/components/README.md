@@ -1,0 +1,5 @@
+components are reusable building blocks that make up apps
+
+independent because they can be used anywhere on the page
+
+held together by the layout of the page

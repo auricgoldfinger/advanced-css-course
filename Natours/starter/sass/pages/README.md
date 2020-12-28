@@ -1,0 +1,1 @@
+Contains layout, styles, specifically for specific pages, like homepage
